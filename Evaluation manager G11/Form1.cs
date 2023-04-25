@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Evaluation_manager_G11 {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class textUserName : Form {
+        public textUserName() {
             InitializeComponent();
+        }
+
+        private void textUserName_Load(object sender, EventArgs e) {
+
         }
     }
 }
